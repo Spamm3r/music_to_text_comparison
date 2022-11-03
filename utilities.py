@@ -9,12 +9,9 @@ import azure.cognitiveservices.speech as speechsdk
 
 class Utilities:
     def __init__(self):
-        # self.wit_key = '6DXD7C2F3PH2ELYPNUDS73NLLJQK4SUD'
-        self.wit_key = '6TRRUSXN7HAHU2Q5BLC6B33L7GWCYQ3D'
-        # 1 self.client_id = 'MvFliQofevWN9IiQz4kmtA=='
-        self.client_id = 'WUR8hl8ENATJUIe9VaSkPg=='
-        # 1 self.client_key = 'ckmfy9EXz54mXbP_gPrazJT0b3gZtbCN4-x5CbB2QUABJR1QtlMQKgDADbflTkbac5FqaNjCM5ADFIRlM4_LKg=='
-        self.client_key = 'dj2WMYnxu_tQi5f7ll-e8yYKJW7p2UkQhUM-GGDO2INbvaRxmDX4fIzWhXhkre1tfuzJ8DlTwLj-y6McwUi9TA=='
+        self.wit_key = 'key_for_wit.ai_api'
+        self.client_id = 'client_for_houndify_api'
+        self.client_key = 'password_for_houndify_api'
         self.music_path_dict = ['blue_sky',
                                 'gangsta_',
                                 'last_cell',
